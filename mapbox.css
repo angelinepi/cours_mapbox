@@ -1,0 +1,16 @@
+#map {
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    width:100%;
+}
+
+.Mypopup .mapboxgl-popup-content {
+    background-color: rgb(138, 132, 132);
+    color : #0b44ae;
+    opacity : 1;
+    height : 100px;
+    width : 200px;
+    font-family: 'Courier New', sans-serif;
+    border-radius: 10%; /*ajouter un arrondi*/
+}
