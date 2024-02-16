@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Demo: Build a store locator using Mapbox GL JS</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--LIBRAIRIES MAPBOX-->
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css" rel="stylesheet"/>
+
+    <!--LIBRAIRIE MAPLIBRE-->
+    <script src="https://unpkg.com/maplibre-gl@^2.4/dist/maplibre-gl.js"></script> <!--appel librairie maplibre DOC DE MAP LIBRE https://maplibre.org/maplibre-gl-js/docs/-->
+    <link href="https://unpkg.com/maplibre-gl@^2.4/dist/maplibre-gl.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./mapbox.css">
+
+    <!--Les script initaux proviennent la page https://docs.mapbox.com/help/tutorials/building-a-store-locator/
+    on y trouve un tutoriel pour représenter un liste de magasins-->
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="heading">
+           <h1>Décheterie de Rennes métropole</h1>
+        </div>
+        <div id="listings" class="listings"></div>
+    </div>
+    
+    <div id="map" class="map"></div>
+    
+
+    <!--MA CARTE JS-->
+    <script src="./mapbox.js"></script>
+
+</body>
+
+</html>     
